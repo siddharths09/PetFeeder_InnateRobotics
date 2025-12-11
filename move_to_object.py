@@ -17,7 +17,7 @@ class MoveToObjectNode(Node):
         
         # Declare parameters
         self.declare_parameter('distance_topic', '/object/base_position')
-        self.declare_parameter('stop_distance', 0.2)
+        self.declare_parameter('stop_distance', 0.05)
         self.declare_parameter('linear_speed', 0.2)
         self.declare_parameter('angular_correction', 0.0)
         self.declare_parameter('auto_start', True)
